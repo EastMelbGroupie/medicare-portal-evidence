@@ -1,0 +1,31 @@
+# Wayback Machine CDX index: medicarestatistics.humanservices.gov.au/statistics/mbs_item*, captures from 2026
+# Query (retrieved 2026-09-25): https://web.archive.org/cdx/search/cdx?url=medicarestatistics.humanservices.gov.au/statistics/mbs_item*&from=2026&fl=timestamp,original,statuscode,digest
+# Columns: timestamp(UTC) original-url status digest
+20260310122339 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.html - TMGZTKFV6TQXRLFLLDHVBNO46TZRIXO3
+20260418171239 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.html 200 45DRLPGUYC6AUMUGRHEEKFHWEIYE6DDW
+20260518210826 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.html 200 45DRLPGUYC6AUMUGRHEEKFHWEIYE6DDW
+20260626112601 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.html 200 45DRLPGUYC6AUMUGRHEEKFHWEIYE6DDW
+20260811115217 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.html 200 45DRLPGUYC6AUMUGRHEEKFHWEIYE6DDW
+20260202210341 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.html3. 404 2ZF25EIJD3NGU5JS5PWANKTQRE5XTYPY
+20260301071438 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260310122337 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+20260310122338 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260414145210 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260517171143 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+20260517171205 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260521193110 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260616210450 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260626112600 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+20260626112601 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260811115216 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+20260811115216 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 200 QQTMEW7AJRNWCE5KQVS3PVOCGFCE5FH4
+20260918102113 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+20260918102113 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U
+20260918102114 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U
+20260918102117 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U
+20260919072656 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
+20260919072656 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp - DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U
+20260919072657 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp - DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U
+20260919072659 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U
+20260305061310 https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp.%C2%A0 404 2ZF25EIJD3NGU5JS5PWANKTQRE5XTYPY
+20260306095645 http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp.%C2%A0 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ

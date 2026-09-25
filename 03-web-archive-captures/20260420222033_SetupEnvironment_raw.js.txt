@@ -1,0 +1,155 @@
+//  The script sets up all the variables required to run a SAS program and run another stroed procedure as per
+//  HTML requirement.
+	var rxOnlyHTML=/^((http)s?):\/\/.*\d*SAS\.Web\/(.*)\/.*(\.(html))(.*)/gmi;
+	var rxURL=/((https?)?:\/\/)?(.*SASStoredProcess\/do)?.*_program=(SBIP:)?(\/\/)?(metaserver\/)?(.*\/){1}(.*\/){1}(.*\/){1}SAS\.storedprocess\/(.*\/)(.*)/gmi;
+// Above regex will produce the following if we're running a stored process.
+//	1=https://
+//	2=https
+//	3=
+//	4=SBIP:
+//	5=//
+//	6=METASERVER/
+//	7=Shared+Data/sasdata/
+//	8=dev/
+//	9=VEA0032/
+//	10=DevAdmin/
+//	11=Dev+Admin+Execute+SQL(storedprocess)
+	var rxSTP=/(.*)(\(.?\)?)/gmi;
+	var ENV_WEB_BASE=location.origin;
+	var stpName="";
+	var stpParms="";
+// need to check when displaying html that if it has parameters then we need to create them	
+	if (/\(StoredProcess\)/.test(decodeURIComponent(document.URL))) {
+		stpName=decodeURIComponent(document.URL).replace(rxURL,"$11").replaceAll("+"," ").replace("(StoredProcess)","");
+		var _NUMBERPLATE=decodeURIComponent(document.URL).replace(rxURL,"$9").slice(0,-1);
+		var ENV_SYSTEM	=decodeURIComponent(document.URL).replace(rxURL,"$8").slice(0,-1);
+		var ENV_PROJECT	=decodeURIComponent(document.URL).replace(rxURL,"$10").slice(0,-1);
+	}
+	else {
+//		if (/.*&_program/gi.test(decodeURIComponent(document.URL)))
+		if (/.*[&,?]_PROGRAM=/gi.test(decodeURIComponent(document.URL))) {
+			stpname = decodeURIComponent(document.URL+"&&").replace(/.*[?,&]_program=.*\/(.*)\&+.*/gi,"$1").replaceAll('+',' ').split("&")[0];
+			stpParms= decodeURIComponent(document.URL).replace(/.*[?,&]_program=.*\/(.*)(\&+.*)/gi,"$2").replaceAll('+',' ');
+		}
+		var _NUMBERPLATE='VEA0032';
+		switch(decodeURIComponent(document.URL).split('.')[0].slice(-2)) 
+			{ 	case '01': var ENV_SYSTEM='prod'; break;
+				case '02': var ENV_SYSTEM='test'; break;
+				case '03': var ENV_SYSTEM='dev'; break;
+				default  : var ENV_SYSTEM='prod';
+			}
+		if (decodeURIComponent(document.URL).match(/^.*.html/).length > 0)
+			ENV_PROJECT = decodeURIComponent(document.URL).match(/^.*.html/)[0].split('/')
+							[decodeURIComponent(document.URL).match(/^.*.html/)[0].split('/').length -2];
+		if (decodeURIComponent(document.URL).replace(rxOnlyHTML,"$6").length == 0 ) {
+			// need to decode parameters passed ross k.
+		}
+	}
+	var _PROGRAM='/Shared Data/sasdata/'+ENV_SYSTEM+'/'+_NUMBERPLATE+'/SAS.StoredProcess/'+ENV_PROJECT+'/'+stpName;
+	var ENV_PROGRAM=stpName;
+	var ENV_PATH="/sasdata/"+ENV_SYSTEM+"/"+_NUMBERPLATE;
+	var ENV_CODE_DIR=ENV_PATH+'/SAS.StoredProcess/'+ENV_PROJECT;
+	var ENV_STOREDPROCESS_DIR=ENV_CODE_DIR;
+	var ENV_LOG_DIR=ENV_PATH+'/SAS.Log/'+ENV_PROJECT;
+//	var remainder=_PROGRAM.substring(_PROGRAM.indexOf('/'+ENV_PROJECT.trim()+'/')+ENV_PROJECT.length+2).replaceAll(ENV_PROGRAM,'');
+	var remainder="";
+	var ENV_PROGRAM_DIR=ENV_PATH+'/SAS.Program/'+ENV_PROJECT+remainder;
+	var ENV_SASDATA_DIR=ENV_PATH+'/Data/Raw/'+ENV_PROJECT+remainder;
+	var ENV_SASLIB_DIR=ENV_PATH+'/Data/SASLib/'+ENV_PROJECT+remainder;
+	var ENV_SASSPDE_DIR=ENV_PATH+'/Data/SPDE/'+ENV_PROJECT+remainder;
+	var ENV_WEB_BASE_PATH='/'+_NUMBERPLATE+'/SAS.Web';
+	var ENV_WEB_CODE_PATH=ENV_WEB_BASE_PATH+'/'+ENV_PROJECT+remainder;;
+	var ENV_WEB_COMMON_PATH=ENV_WEB_BASE_PATH+'/MCACommon';
+	var ENV_WEB_SBIP='SBIP://METASERVER/Shared Data/sasdata/'+ENV_SYSTEM+"/"+_NUMBERPLATE+"/SAS.StoredProcess/"+ENV_PROJECT;
+	if (ENV_PROJECT == 'statistics' && ENV_SYSTEM == 'prod') {
+		var WEBSTATS_STORED_PROCESS_DO = "/SASStoredProcess/guest";
+	} else {
+		var WEBSTATS_STORED_PROCESS_DO = "/SASStoredProcess/do";
+	}
+	
+
+	console.log('ENV_SYSTEM='+ENV_SYSTEM);
+	console.log('ENV_PATH='+ENV_PATH);
+	console.log('ENV_PROGRAM='+ENV_PROGRAM);
+	console.log('ENV_PROJECT='+ENV_PROJECT);
+	console.log('ENV_CODE_DIR='+ENV_CODE_DIR);
+	console.log('ENV_STOREDPROCESS_DIR='+ENV_STOREDPROCESS_DIR);
+	console.log('ENV_LOG_DIR='+ENV_LOG_DIR);
+	console.log('ENV_PROGRAM_DIR='+ENV_PROGRAM_DIR);
+	console.log('ENV_SASDATA_DIR='+ENV_SASDATA_DIR);
+	console.log('ENV_SASLIB_DIR='+ENV_SASLIB_DIR);
+	console.log('ENV_SASSPDE_DIR='+ENV_SASSPDE_DIR);
+	console.log('ENV_WEB_BASE='+ENV_WEB_BASE);
+	console.log('ENV_WEB_BASE_PATH='+ENV_WEB_BASE_PATH);
+	console.log('ENV_WEB_CODE_PATH='+ENV_WEB_CODE_PATH);
+	console.log('ENV_WEB_COMMON_PATH='+ENV_WEB_COMMON_PATH);
+	console.log('ENV_WEB_SBIP='+ENV_WEB_SBIP);
+	
+	function SAS_toggleLog() {
+	    document.getElementById("SASLog").style.display=document.getElementById("SASLog").style.display=='none'?'block':'none';
+	    document.body.style.background='#fff';
+	}
+	// Show debug check box when mouse moves over span field
+	//To use the following 3 function in your HTML file you need:
+	// 1. In your <form> define <input type="hidden" name="_debug" value="0" />
+	// 2. You the following definitions or something like it -
+	//	<span class="debug" style="vertical-align:top; float:right" 
+	//		onclick="ToggleDebug('DEBUG')" 
+	//      onmouseover="ShowDebug(this,'DEBUG')" 
+	//		onmouseout="HideDebug(this,'DEBUG')" >
+	//		<input type="Hidden" 
+	//			name="DEBUG" 
+	//			id="DEBUG"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	//	</span>
+	// and the following
+	//	<span class="debug" style="vertical-align:top; float:right" 
+	//		onclick="ToggleDebug('PRINT_ALL')" 
+	//		onmouseover="ShowDebug(this,'PRINT_ALL')" 
+	//		onmouseout="HideDebug(this,'PRINT_ALL')" >
+	//		<input type="Hidden" 
+	//			name="PRINT_ALL" 
+	//			id="PRINT_ALL"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	//	</span>
+
+
+	function ShowDebug(spanobj,nme) {
+		if (!document.getElementById(nme).checked)
+			spanobj.innerHTML = '<input type="CheckBox" id="' + nme + '" name="' + nme + '"/>' + nme;
+	}
+
+	// Hide debug check box when mouse moves over span field
+	function HideDebug(spanobj,nme) {
+		if (!document.getElementById(nme).checked)
+			spanobj.innerHTML = '<input type="Hidden" id="' + nme + '"name="' + nme + '"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+	}
+
+	// Toggle debug check box when mouse clicks on span field
+	function ToggleDebug(nme) {
+		if (document.getElementById(nme).checked == true)
+			document.getElementById(nme).checked = false
+		else
+			document.getElementById(nme).checked = true;
+	}
+	
+/*  NOT USED  - If your code needs this you need to change your code, don't use this */
+/* 	function replace_body_values() {
+		newbody=document.getElementsByTagName('body')[0].innerHTML;
+		newbody=newbody.replaceAll('JS_REPLACE_'+'ENV_WEB_SBIP',ENV_WEB_SBIP);
+		newbody=newbody.replaceAll('JS_REPLACE_'+'PROGRAM',ENV_PROGRAM);
+		newbody=newbody.replaceAll('JS_REPLACE_'+'ENV_SYSTEM',ENV_SYSTEM);
+		document.getElementsByTagName('body')[0].innerHTML=newbody;
+	}
+ */	
+	 
+	function set_dynamic_html (file,tag_name) {
+		// (A) FETCH "DUMMY.HTML"
+		// let file = "common/ssi/disclaimer.htm";
+
+		fetch (file)
+		.then(x => x.text())
+		.then(y => document.getElementById(tag_name).innerHTML = y);
+	}
+	
+	function SetSASStoredProcess(std) {
+        document.location = "/SASStoredProcess/do"+ "?_PROGRAM=" + ENV_WEB_SBIP + "/"+std;
+	}

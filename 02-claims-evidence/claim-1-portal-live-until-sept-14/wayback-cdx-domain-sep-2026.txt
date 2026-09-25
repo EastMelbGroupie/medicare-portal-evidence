@@ -1,0 +1,16 @@
+# Wayback Machine CDX index, whole domain medicarestatistics.humanservices.gov.au, 1-25 September 2026
+# Query (retrieved 2026-09-25): https://web.archive.org/cdx/search/cdx?url=medicarestatistics.humanservices.gov.au&matchType=domain&from=20260901&to=20260925&fl=timestamp,statuscode,digest,original
+# Timestamps UTC (Canberra = UTC+10). Digest DN2DKS2B... = the branded 'Service Unavailable' page.
+# First 503: 20260917031054 = 17 Sep 2026 13:10 Canberra time.
+20260917031053 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ http://medicarestatistics.humanservices.gov.au/statistics/do.jsp
+20260917031054 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/do.jsp
+20260917031054 - DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/do.jsp
+20260917031057 - DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/do.jsp
+20260918102113 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260918102113 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260918102114 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260918102117 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260919072656 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ http://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260919072656 - DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260919072657 - DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp
+20260919072659 503 DN2DKS2BJULX3DX26NG4C2WW7NDLQK3U https://medicarestatistics.humanservices.gov.au/statistics/mbs_item.jsp

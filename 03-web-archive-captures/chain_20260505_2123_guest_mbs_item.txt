@@ -1,0 +1,1616 @@
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:08 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.482068, exclusion.robots;dur=0.118407, exclusion.robots.policy;dur=0.112092, esindex;dur=0.006852, cdx.remote;dur=22.312935, LoadShardBlock;dur=249.640624, PetaboxLoader3.datanode;dur=218.260324, PetaboxLoader3.resolve;dur=21.154272
+x-app-server: wwwb-app263-dc8
+x-ts: 302
+x-tr: 288
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app263; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:08 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:08 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:09 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:09 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:09 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:09 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:09 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:10 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:10 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:10 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:10 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:10 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:11 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:11 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:11 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:11 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:12 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:12 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:12 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:12 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:12 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:13 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:13 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:13 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:13 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:13 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:14 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:14 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:14 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:14 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:14 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:15 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:15 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:15 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:15 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:15 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:15 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:16 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:16 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:16 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:16 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:17 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:17 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:17 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:17 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: CASTGC=TGT-686445-kPr01DBdt9Vjyb5Qfpjo6lBnQQILNvOhY5Az9NxcAnyCNekfgz-cas; Path=/SASLogon/; Secure
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=99
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.451526, exclusion.robots;dur=0.089968, exclusion.robots.policy;dur=0.082870, esindex;dur=0.007450, cdx.remote;dur=12.742560, LoadShardBlock;dur=1976.509377, PetaboxLoader3.datanode;dur=1985.472733, PetaboxLoader3.resolve;dur=122.111249, load_resource;dur=141.232290, loaddict;dur=47.322718
+x-app-server: wwwb-app264-dc8
+x-ts: 302
+x-tr: 2150
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app264; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:17 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+x-archive-orig-x-ua-compatible: IE=edge
+x-archive-orig-pragma: no-cache
+x-archive-orig-expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-archive-orig-cache-control: no-cache
+x-archive-orig-cache-control: no-store
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=98
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%253A%252F%252Fmedicarestatistics.humanservices.gov.au%252FSASStoredProcess%252Fj_spring_cas_security_check>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.487273, exclusion.robots;dur=0.084529, exclusion.robots.policy;dur=0.076357, esindex;dur=0.006603, cdx.remote;dur=10.191496, LoadShardBlock;dur=163.099531, PetaboxLoader3.resolve;dur=98.249908, PetaboxLoader3.datanode;dur=170.179214, load_resource;dur=136.996144, loaddict;dur=47.717025
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 327
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:18 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:23 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+x-archive-orig-content-length: 0
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=97
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:44 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/j_spring_cas_security_check?ticket=ST-1032516-tRCGFkSCh6dZ9AiKt2PA-cas>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.763893, exclusion.robots;dur=0.142383, exclusion.robots.policy;dur=0.126847, esindex;dur=0.009058, cdx.remote;dur=11.923041, LoadShardBlock;dur=94.084527, PetaboxLoader3.datanode;dur=139.106696, PetaboxLoader3.resolve;dur=99.999663, load_resource;dur=238.005586, loaddict;dur=134.507218
+x-app-server: wwwb-app249-dc8
+x-ts: 302
+x-tr: 371
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:18 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212343
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%3A%2F%2FMETASERVER%2FShared+Data%2Fsasdata%2Fprod%2FVEA0032%2FSAS.StoredProcess%2Fstatistics%2Fmbs_item_standard_report&DRILL=ag&group=3%2C23%2C36%2C44%2C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601
+server-timing: captures_list;dur=0.533418, exclusion.robots;dur=0.118184, exclusion.robots.policy;dur=0.109801, esindex;dur=0.007874, cdx.remote;dur=39.228128, LoadShardBlock;dur=204.928186, PetaboxLoader3.datanode;dur=102.652859, PetaboxLoader3.resolve;dur=99.086115
+x-app-server: wwwb-app266-dc8
+x-ts: 302
+x-tr: 268
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:18 GMT
+content-length: 0
+x-archive-orig-date: Tue, 05 May 2026 21:24:22 GMT
+x-archive-orig-server: Apache
+location: https://web.archive.org/web/20260505212343/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+x-archive-orig-content-length: 0
+x-archive-orig-set-cookie: 8404221c8e70bbbb4fe716bfc16a82b6_Cluster1=8406367CE99B695E1B87ADF23813EEEF.8404221c8e70bbbb4fe716bfc16a82b6_SASServer1_1; Path=/SASStoredProcess; Secure; HttpOnly
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-xss-protection: 1; mode=block
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-strict-transport-security: max-age=31536000
+x-archive-orig-content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;  frame-src * blob: data: mailto:; child-src * blob: data: mailto:; font-src * data:;
+x-archive-orig-keep-alive: timeout=5, max=100
+x-archive-orig-connection: Keep-Alive
+cache-control: max-age=1800
+memento-datetime: Tue, 05 May 2026 21:23:43 GMT
+link: <https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="original", <https://web.archive.org/web/timemap/link/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://medicarestatistics.humanservices.gov.au/SASStoredProcess/guest?_PROGRAM=SBIP%253A%252F%252FMETASERVER%252FShared+Data%252Fsasdata%252Fprod%252FVEA0032%252FSAS.StoredProcess%252Fstatistics%252Fmbs_item_standard_report&DRILL=ag&group=3%252C23%252C36%252C44%252C123&VAR=services&STAT=count&RPT_FMT=by+state&PTYPE=calyear&START_DT=202501&END_DT=202601>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: archiveteam_urls_20260505212647_b2fc4026/urls_20260505212647_b2fc4026.1762161290.megawarc.warc.zst
+server-timing: captures_list;dur=0.797239, exclusion.robots;dur=0.190126, exclusion.robots.policy;dur=0.177851, esindex;dur=0.015287, cdx.remote;dur=6.196736, LoadShardBlock;dur=182.961168, PetaboxLoader3.resolve;dur=162.445358, PetaboxLoader3.datanode;dur=179.717393, load_resource;dur=195.943485, loaddict;dur=55.901904
+x-app-server: wwwb-app241-dc8
+x-ts: 302
+x-tr: 408
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app241; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 302 
+server: nginx
+date: Thu, 24 Sep 2026 03:34:18 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20260505212344
+location: https://web.archive.org/web/20260505212344/https://medicarestatistics.humanservices.gov.au/SASLogon/login?service=https%3A%2F%2Fmedicarestatistics.humanservices.gov.au%2FSASStoredProcess%2Fj_spring_cas_security_check&direct_authentication_ticket=ST-1032515-73AZ6GwPhadR5fMdaWIE-cas
+server-timing: captures_list;dur=0.476180, exclusion.robots;dur=0.093911, exclusion.robots.policy;dur=0.086757, esindex;dur=0.006887, cdx.remote;dur=7.228412, LoadShardBlock;dur=127.747781, PetaboxLoader3.datanode;dur=62.066501, PetaboxLoader3.resolve;dur=64.662078
+x-app-server: wwwb-app220-dc8
+x-ts: 302
+x-tr: 152
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app220; path=/
+x-location: All
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

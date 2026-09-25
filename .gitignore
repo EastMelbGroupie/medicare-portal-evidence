@@ -1,0 +1,13 @@
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Never publish these
+email-draft*.md
+*.zip
+*.tar.gz
+*.bundle
+.env

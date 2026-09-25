@@ -1,0 +1,365 @@
+<!--[if lt IE 7 ]><html class="ie ie6" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+
+	<!--Environment Variables -->
+	<script type="text/javascript" src="/VEA0032/SAS.Web/MCACommon/SetupEnvironment.js">
+	</script>
+	<script>
+	function autoResize() {
+        itemno1.style.height = 'auto'; 
+        itemno1.style.height = itemno1.scrollHeight + 'px'; 
+    }
+	function fix_item(obj) {
+		dash_items=[...new Set(obj.value.split(/\s+/).join(',').split(','))].filter(val => /^\s*\d+\s*-\s*\d+\s*$/.test(val));
+		vals=[...new Set(obj.value.split(/\s+/).join(',')
+					.split(','))]
+					.filter(val => !isNaN(val) && val.length > 0)
+					.map(val =>Number(val));
+		dash_items.forEach((val,z) => {for (let i=Number(val.split('-')[0]);i<=Number(val.split('-')[1]);i++) vals.push(i);});
+		// we have all vals array containing all 
+		obj.value=[...new Set(vals)].sort(function(a, b) { return a - b }).join(',');
+	}
+	</script>
+	<base href='/VEA0032/SAS.Web/statistics/' />
+	<title>Services Australia - Statistics - Item Reports</title>
+	<link href="common/css/apps.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="common/css/pattern-layout-B.css" rel="stylesheet" type="text/css" media="screen" />
+	<script src="common/scripts/tabs.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/errors.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/showopts.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/fillit.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/monthlist.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/date_proc_NLF.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/long_rpt.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/percapst.js" language="javascript" type="text/javascript"></script>
+	<script src="common/scripts/mbs_tab_NLF.js" language="javascript" type="text/javascript"></script>
+	
+	<link id="favicon" href="data:image/x-icon;base64,
+	AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAABMLAAATCwAAAAEAAAAAAADDf
+	QAAxYIKAPLixwDZrF0A27FmAOjNnADEgAYA27JnAMR/AwDiwIMAw34BANKdPwDPljIA0p5BANqvYgDkxIsAx4
+	YRAM6ULgDHhRAA7928AN+6dwDx4MMAxoQNAMWCCQDozp4A5siTAOfMmgDEgAUAyYkYAMWBBwDZrV4A3bVtAM2
+	TLADiv4IA3LRrAOjOnwDr06gA6M2dAOnPoQDGgwwA3rdxAMmLGwDLjSAAxH8EANmsXAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAALS0tLS0EBgASDAUtLS0tLS0tLS0rACcIAAAACy0tLS0tLS0EJi0tLQUKAAAOLS0tLS0tLS0tLS0tAgAAAC
+	MtLS0tLS0tLS0qLS0DAAAHLS0tLS0tLS0AABktDwAAKC0tLS0tLS0cABEtLQMAFxMtLS0tLS0LABYtLS0AAAk
+	tLS0tLS0hAAAtLS0BAA0tLS0tLS0VHQAeLS0gACktLS0tLS0tFAAADy0JAAAtLS0tLS0tLR8AACwtLRAtLS0t
+	LS0tLS0kAAAAAi0tLS0tLS0tLS0tLQ4AAAoaLS0tJQctLS0tLS0tDQAAAAgBABstLS0tLS0tLS0YDAEABiItL
+	S0tLfgfAADwDwAA5wcAAP+DAAD+wwAA/EMAAPjDAADxxwAA448AAMMfAADCPwAAw38AAMH/AADg5wAA8A8AAP
+	gfAAA=" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<div id="logo"><a href="http://www.humanservices.gov.au/"><img src="common/images/logo.gif" alt="Human Services" /></a></div>
+<div id="appName">Medicare Statistics</div>
+
+<div id="main">
+  <div id="container">
+    <div id="navigation"></div>
+    <div id="content">
+      <div id="content-floater">
+<div id="breadcrumbs">
+<p>You are here: <a href="http://www.humanservices.gov.au/corporate/statistical-information-and-data/?utm_id=9">Statistics</a> &gt; Medicare Item Reports</p>
+</div>
+<h1 id="ttt">Medicare Item Reports</h1>
+<div id="mbs_information_banner"></div>
+<div id="tabBar" class="tabs">
+<p><a href="javascript:;" id="tab1" accesskey="1" tabindex="1">Item Reports</a> <a href="javascript:;" id="tab2" accesskey="2" tabindex="2">Item by Patient Demographic Reports</a> <a href="javascript:;" id="tab3" accesskey="3" tabindex="3">Item Charts</a></p>
+</div>
+<div class="tabPane">
+<div id="tabPane1">
+<script language="JavaScript" type="text/javascript">
+				addLoadEvent(function(){onloadentry(document.form);});
+				addLoadEvent(function(){onloadentry(document.form2);});
+				addLoadEvent(function(){onloadentry(document.form3);});
+			</script>
+<noscript>
+<h2>Item Statistics Reports</h2>
+</noscript>
+<div class="form_information">
+<h3>About MBS Item Statistics Reports</h3>
+<ul>
+<li>These reports produce statistics on requested items in the <a target="_blank" class="external" href="http://www9.health.gov.au/mbs/">Medicare Benefits Schedule</a>.</li>
+<li>To obtain the statistics, enter the item number/s and choose from the drop-down menus in fields on the form. Then click the 'Create Report' button to submit your request.</li>
+<li>There are "drill down" links on the generated report that will produce a report by patient age range and gender.</li>
+</ul>
+</div>
+<div class="activeformarea">
+<!-- <form action="do.jsp" name="form" method="get" onSubmit="return false"> -->
+<form name="form" id="form" action="/SASStoredProcess/do" method="get"  onSubmit="return false">
+<input type="hidden" id="formStdProcess" name="_PROGRAM" value="JS_REPLACE_ENV_WEB_SBIP/mbs_item_standard_report">
+<!-- <input type="hidden" name="_debug" value="131"> -->
+<input type="hidden" name="DRILL" value="ag">
+<fieldset>
+<legend>Select your report options</legend>
+<ol>
+<li>
+<label for="itemno1" class="standardwidth">Item numbers</label>
+<textarea name="group" id="itemno1" style="width: 400px;" 
+onChange="fix_item(this);group_chgd(this.form)" 
+tabindex="4" type="text"> </textarea>
+<br />
+<span class="standardwidth"></span>eg. 23 (single item) or 3,36,44 (list of items) or 23-44 (range of items)
+</p>
+</li>
+<li>
+<label for="VAR" class="standardwidth">Show</label>
+<select name="VAR" id="VAR" onChange="var_chgd(this.form)" tabindex="5">
+<option value="services" selected="selected">services</option>
+<option value="benefit">benefit - Medicare contribution to service</option>
+</select>
+<label for="STAT">as</label>
+<select name="STAT" id="STAT" onChange="stat_chgd(this.form)" tabindex="6">
+<option value="count" selected="selected">count</option>
+<option value="percapita">per capita</option>
+</select>
+</li>
+<li>
+<label for="RPT_FMT" class="standardwidth">Report format</label>
+<select name="RPT_FMT" id="RPT_FMT" onChange="fmt_chgd(this.form)" tabindex="7">
+<option value="by state" selected="selected">by state (columns)</option>
+<option value="by time period and state">by time period (rows) and state (cols)</option>
+</select>
+</li>
+<li>
+<label for="PTYPE" class="standardwidth">Time period</label>
+<select name="PTYPE" id="PTYPE" onChange="per_chgd(this.form,this.form.PTYPE,this.form.START_DT,this.form.END_DT)" tabindex="8">
+<option value="month">in months</option>
+<option value="quarter">in quarters</option>
+<option selected="selected" value="finyear">in financial years</option>
+<option value="calyear">in calendar years</option>
+</select>
+</li>
+<li>
+<label for="START_DT" class="standardwidth">Start date</label>
+<select name="START_DT" id="START_DT" onChange="start_chgd(this.form,this.form.PTYPE,this.form.START_DT,this.form.END_DT)" tabindex="9">
+</select>
+</li>
+<li>
+<label for="END_DT" class="standardwidth">End date</label>
+<select name="END_DT" id="END_DT" onChange="end_chgd(this.form)" tabindex="10">
+</select>
+</li>
+</ol>
+</fieldset>
+<ol>
+<li><span class="standardwidth">&#160;</span>
+<input type="button" onclick="final_check(this.form)" tabindex="11" value="Create Report" class="buttons" />
+</li>
+</ol>
+</form>
+<br />
+</div>
+</div>
+<div id="tabPane2">
+<noscript>
+<h2>Item by Patient Demographic Reports</h2>
+</noscript>
+<div class="form_information">
+<h3>About MBS Item by Patient Demographics Reports</h3>
+<ul>
+<li>These reports produce patient age range and gender, per capita and percentage statistics on an item in the <a target="_blank" class="external" href="http://www9.health.gov.au/mbs/">Medicare Benefits Schedule</a>.</li>
+<li>To obtain the statistics, enter the item number and choose from the drop-down menus in fields on the form. Then click the 'Create Report' button to submit your request.</li>
+</ul>
+</div>
+<div class="activeformarea">
+<!--<form action="do" name="form2" method="get" onSubmit="return false">-->
+<form name="form2" id="form2" action="/SASStoredProcess/do" method="get"  onSubmit="return false">
+<input type="hidden" id="form2StdProcess" name="_PROGRAM" value="JS_REPLACE_ENV_WEB_SBIP/mbs_item_age_gender_report">
+<fieldset>
+<legend>Select your patient demographics report options</legend>
+<ol>
+<li>
+<label for="itemno2" class="standardwidth">Item number</label>
+<input type="text" name="group" id="itemno2" size="27" value="" maxlength="180" onchange="group_chgd(this.form)" tabindex="4">
+<br />
+<span class="standardwidth"></span>eg. 23 (single item only) </li>
+<li>
+<label for="VAR" class="standardwidth">Show</label>
+<select name="VAR" id="VAR" onchange="var_chgd(this.form)" tabindex="5">
+<option value="services" selected="selected">services</option>
+<option value="benefit">benefit - Medicare contribution to service</option>
+</select>
+<label for="STAT">as</label>
+<select name="STAT" id="STAT" onchange="stat_chgd(this.form)" tabindex="6">
+<option value="count" selected="selected">count</option>
+<option value="percentage">percentage</option>
+<option value="percapita">per capita</option>
+</select>
+</li>
+<li>
+<label for="RPT_FMT" class="standardwidth">Report format</label>
+<select name="RPT_FMT" id="RPT_FMT" onchange="fmt_chgd(this.form)" tabindex="7">
+<option value="by state" selected="selected">by state (columns)</option>
+<option value="by time period and state">by time period (rows) and state (cols)</option>
+</select>
+</li>
+<li>
+<label for="PTYPE" class="standardwidth">Time period</label>
+<select name="PTYPE" id="PTYPE" onChange="per_chgd(this.form,this.form.PTYPE,this.form.START_DT,this.form.END_DT)" tabindex="8">
+<option value="month">in months</option>
+<option value="quarter">in quarters</option>
+<option  selected="selected" value="finyear">in financial years</option>
+<option value="calyear">in calendar years</option>
+</select>
+</li>
+<li>
+<label for="START_DT" class="standardwidth">Start date</label>
+<select name="START_DT" id="START_DT" onChange="start_chgd(this.form,this.form.PTYPE,this.form.START_DT,this.form.END_DT)" tabindex="9">
+<option value=" " selected="selected">_________________________</option>
+</select>
+</li>
+<li>
+<label for="END_DT" class="standardwidth">End date</label>
+<select name="END_DT" id="END_DT" onchange="end_chgd(this.form)" tabindex="10">
+<option value=" " selected="selected">_________________________</option>
+</select>
+</li>
+</ol>
+</fieldset>
+<ol>
+<li><span class="standardwidth">&#160;</span>
+<input type="button" onclick="final_check(this.form)" tabindex="11" value="Create Report" class="buttons" />
+</li>
+</ol>
+</form>
+<br/>
+</div>
+</div>
+<div id="tabPane3">
+<noscript>
+<h2>Item Charts</h2>
+</noscript>
+<div class="form_information">
+<h3>About MBS Item Charts</h3>
+<ul>
+<li>These reports produce time series graphs of requested items in the <a target="_blank" class="external" href="http://www9.health.gov.au/mbs/">Medicare Benefits Schedule</a>.</li>
+<li>To obtain the chart, enter the item number/s and choose from the drop-down menus in fields on the form. Then click the 'Create Report' button to submit your request.</li>
+</ul>
+</div>
+<div class="activeformarea">
+<!-- <form action="do.jsp" name="form3" method="get" onSubmit="return false" > -->
+<form name="form3" id="form3" action="/SASStoredProcess/do" method="get"  onSubmit="return false">
+<input type="hidden" id="form3StdProcess" name="_PROGRAM" value="JS_REPLACE_ENV_WEB_SBIP/mbs_item_chart_report">
+<input type="hidden" name="DRILL" value="off">
+				<fieldset>
+<legend>Select your item chart report options</legend>
+<ol>
+<li>
+<label for="itemno3" class="standardwidth">Item numbers</label>
+<input type="text" name="group" id="itemno3" size="27" value="" maxlength="180" onchange="group_chgd(this.form)" tabindex="4">
+<br />
+<span class="standardwidth"></span>eg. 23 (single item) or 3,36,44 (list of items)
+</p>
+</li>
+<li>
+<label for="VAR" class="standardwidth">Show</label>
+<select name="VAR" id="VAR" onchange="var_chgd(this.form)" tabindex="5">
+<option value="services" selected="selected">services</option>
+<option value="benefit">benefit - Medicare contribution to service</option>
+</select>
+<label for="STAT">as</label>
+<select name="STAT" id="STAT" onchange="stat_chgd(this.form)" tabindex="6">
+<option value="count" selected="selected">count</option>
+</select>
+</li>
+<li>
+<label for="RPT_FMT" class="standardwidth">Report format</label>
+<select name="RPT_FMT" id="RPT_FMT" onchange="fmt_chgd(this.form)" tabindex="7">
+<option selected value="time series graph for 1 to 8 items, by item">time series graph for 1 to 8 items, by item</option>
+<option value="time series graph for 1 to 8 items, by item + tabulated data">as above + tabulated data</option>
+<option value="time series graph for 1 item only, by state">time series graph for 1 item only, by state</option>
+<option value="time series graph for 1 item only, by state + tabulated data">as above + tabulated data</option>
+</select>
+</li>
+<li>
+<label for="PTYPE" class="standardwidth">Time period</label>
+<select name="PTYPE" id="PTYPE" onChange="per_chgd(this.form,this.form.PTYPE,this.form.START_DT,this.form.END_DT)" tabindex="8">
+<option value="month">in months</option>
+<option value="quarter">in quarters</option>
+<option  selected="selected" value="finyear">in financial years</option>
+<option value="calyear">in calendar years</option>
+</select>
+</li>
+<li>
+<label for="START_DT" class="standardwidth">Start date</label>
+<select name="START_DT" id="START_DT" onChange="start_chgd(this.form,this.form.PTYPE,this.form.START_DT,this.form.END_DT)" tabindex="9">
+<option value=" " selected="selected">_________________________</option>
+</select>
+</li>
+<li>
+<label for="END_DT" class="standardwidth">End date</label>
+<select name="END_DT" id="END_DT" onchange="end_chgd(this.form)" tabindex="10">
+<option value=" " selected="selected">_________________________</option>
+</select>
+</li>
+</ol>
+</fieldset>
+<ol>
+<li><span class="standardwidth">&#160;</span>
+<input type="button" onclick="final_check(this.form)" tabindex="11" value="Create Report" class="buttons" />
+</li>
+</ol>
+</form>
+<br/>
+</div>
+</div>
+</div>
+<h2>Important Information</h2>
+<ul>
+<li>Services Australia has updated Medicare systems to allow claimants to identify as non-binary. Under our current privacy provisions, we’ll supress this data in reports “by data demographic” until a population threshold is reached.  Demographic data which doesn’t meet this threshold will be displayed with an asterisk (*). </li>
+<li>Your report may take up to 2 minutes to be created and returned to you, depending on the work load of the server and the volume of traffic on the internet. </li>
+<li>If you have requested statistics for an old item number it will be mapped to its current item number and presented as this in the report. For example, item 65132 (test for the presence of antithrombin III deficiency ...) was renumbered to item 65175 on the 1/11/2006. If you have requested item 65132 for the 2006/07 financial year, then the report will sum all 65132 and 65175 items in that period and report them as item 65175. If you have requested item 65132 for an earlier period (eg. calendar 2004), the services will also be reported as their current equivalent item (ie. 65175). This is so that the item description can be looked up in the current MBS book or MBS online (maintained by the Department of Health, Disability and Ageing). </li>
+<li>The figures in the report include only those services that are performed by a registered provider, for services that qualify for Medicare Benefit and for which a claim has been processed by Services Australia. They do not include services provided by hospital doctors to public patients in public hospitals or services that qualify for a benefit under the Department of Veterans' Affairs National Treatment Account. </li>
+<li>State/Territory is determined according to the address (at the time of claiming) of the patient to whom the service was rendered. </li>
+<li>Month is determined by the date the service was processed by Services Australia, not the date the service was provided.</li>
+<li>Monthly figures may vary due to the varying number of processing days in a month, which depends on the number of days in the month, public holidays, overtime worked etc. </li>
+<li>Services/benefit per capita (ie. per 100,000 population) is calculated by dividing the number of services/benefit processed in a month by the number of people enrolled in Medicare at the end of that month. </li>
+<li>A financial year is 1 July to 30 June.</li>
+<li>This page is best printed in landscape mode.</li>
+<li>Instructions on how to download the statistics into a spreadsheet are contained in <a href="download.html">Downloading Statistical Information</a>.</li>
+</ul>
+<div id="disclaimer" width="100%" style="border-width=0px;" > disclaimer</div>
+<div id="footerMBS" width="100%" style="border-width=0px;" > footerMBS</div>
+
+	</div> <!-- content-floater -->
+	</div> <!--content -->
+</div> <!-- container -->
+  <p class="topofpage"><a href="javascript:window.scrollTo(0,0)">back to top</a></p>
+</div> <!-- main -->
+<script>
+	set_dynamic_html("common/ssi/navigation.htm","navigation");
+	set_dynamic_html("common/ssi/mbs_information_banner.htm","mbs_information_banner");
+	set_dynamic_html("common/ssi/disclaimer.htm","disclaimer");
+	set_dynamic_html("common/ssi/footerMBS.htm","footerMBS");
+//	not needed as these are loaded at form load stage
+//	set_dynamic_html("common/ssi/stlist.htm","START_DT");
+//	set_dynamic_html("common/ssi/endlist.htm","END_DT");
+	document.getElementById("formStdProcess").value=ENV_WEB_SBIP+"/mbs_item_standard_report";
+	document.getElementById("form2StdProcess").value=ENV_WEB_SBIP+"/mbs_item_age_gender_report";
+	document.getElementById("form3StdProcess").value=ENV_WEB_SBIP+"/mbs_item_chart_report";
+	document.getElementById("form").action=WEBSTATS_STORED_PROCESS_DO;
+	document.getElementById("form2").action=WEBSTATS_STORED_PROCESS_DO;
+	document.getElementById("form3").action=WEBSTATS_STORED_PROCESS_DO;
+	    var zz=document.getElementById('itemno1');
+	zz.addEventListener('input', autoResize, false); 
+
+//	getElementById("form3StdProcess").value=
+//	replace_body_values();
+</script>
+</body>
+</html>
