@@ -94,7 +94,9 @@ ABOUT-THE-ISSUE.md         Plain-language summary of the three findings and why 
                            no special access:
   claim-1-portal-live-until-sept-14/   — Common Crawl index dumps Apr-Sep 2026, the
                                          14 Sep response bodies, Wayback capture indexes
-  claim-2-two-separate-incidents/      — saved ABC live blog + ABC explainer + Transluce report
+  claim-2-two-separate-incidents/      — saved ABC live blog + ABC explainer + Transluce report,
+                                         plus later reporting (ABC, Times of AI, Information
+                                         Age, Reason, Al Jazeera) extending the timeline
   claim-3-no-released-data-for-june-18/— urlquery.net search results record
   claim-4-portal-architecture-get-only/— archived portal page, JavaScript, redirect chain,
                                          Wayback capture index of the SAS endpoints,
@@ -194,3 +196,8 @@ corrections are appended to each file.
   also withheld. The LinkedIn screenshot, its tweet-image links and the LinkedIn post ID are
   removed, and the name is replaced on three commits in `git-log.txt`
   (see `bfiripis-github-scraper/evidence.md`).
+- **25 Sep 2026, timeline update** — added six saved news pages to claim 2, with a combined
+  timeline: 16 Sep OpenAI misalignment framework (Medicare incident omitted), 22 Sep first
+  technical exchange between OpenAI and Services Australia, the taskforce's membership, a
+  possible AFP referral, and ABC sources who believe the AIHW and Medicare incidents are
+  linked. The three findings are unchanged.
